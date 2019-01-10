@@ -14,16 +14,16 @@ Usage
 
 Details
 --------
-    $ Please add the timestat into /usr/bin  and change it mode
-	mv Timestat.py Timestat
-	sudo chmod 755 Timestat
-	sudo chown root Timestat
-	sudo chgrp root Timestat
-	sudo mv Timestat /usr/bin
+Please add the timestat into /usr/bin  and change it mode
+mv Timestat.py Timestat
+sudo chmod 755 Timestat
+sudo chown root Timestat
+sudo chgrp root Timestat
+sudo mv Timestat /usr/bin
 
-	Then add one command into your /etc/crontab file(as bellow):
-	# m h  dom mon dow  user	command 
-	  0 20	*	* 	*	root	python /usr/bin/Timestat  
+Then add one command into your /etc/crontab file(as bellow):
+# m h  dom mon dow  user	command 
+  0 20	*	* 	*	root	python /usr/bin/Timestat  
 
-				Jan 10,2019. 
-					Chengdu, China.
+		Jan 10,2019. 
+			Chengdu, China.
