@@ -10,7 +10,7 @@ Usage
 -----
 
 ::
-    $ PDFbinder [or Make Timestat as a cron-jor in crontab]
+    $ Timestat.py [or Make Timestat as a cron-jor in crontab]
 
 Details
 --------
