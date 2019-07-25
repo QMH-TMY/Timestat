@@ -4,7 +4,9 @@
 A cron-job to statistics your time expendirture.
 
 # Requirement #
-Python 3
+	Python 3
+	openpyxl
+	$ sudo pip3 install openpyxl
 
 # Usage #
     $ python3 Timestat.py [or Make Timestat as a cron-jor in crontab]
